@@ -5,11 +5,11 @@ Need to normalize the data in the following way, before starting any subsequent 
 ***Task 2. PCA using the training samples*** <br>
 Use all the training samples to do PCA. Cannot use a built-in function PCA or similar, if your platform provides such a function. You have to explicitly code the key steps of PCA: computing the covariance matrix, doing eigen analysis (can use built-in functions for this), and then identify the principal components.<br>
 ***Task 3. Dimension reduction using PCA*** <br>
-Consider 2-d projections of the samples on the first and second principal components. These are the new 2-d representations of the samples. Plot/Visualize the training and testing samples in this 2-d space. Observe how the two classes are clustered in this 2-D space. Does each class look like a normal distribution?<br>
+Consider 2-d projections of the samples on the first and second principal components. These are the new 2-d representations of the samples. Plot/Visualize the training and testing samples in this 2-d space. Observe how the two classes are clustered in this 2-D space.<br>
 ***Task 4. Density estimation***<br>
 We further assume in the 2-d space defined above, samples from each class follow a Gaussian distribution. Will need to estimate the parameters for the 2-d normal distribution for each class, using the training data. We will have two distributions, one for each class.<br>
 ***Task 5. Bayesian Decision Theory for optimal classification*** <br>
-Use the estimated distributions for doing minimum-error-rate classification. Report the accuracy for the training set and the testing set respectively.
+Use the estimated distributions for doing minimum-error-rate classification. Reported the accuracy for the training set and the testing set respectively.
 <br>
 <br>
 
